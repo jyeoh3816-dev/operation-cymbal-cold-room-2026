@@ -1,104 +1,125 @@
-Operation Cymbal: Cold Room CTF 2026
-Cybersecurity Investigation Portfolio | Zero Day Legend
-Google Security Operations (Google SecOps) • Incident Investigation • Threat Hunting • Digital Forensics
+# Operation Cymbal: Cold Room CTF 2026
 
-Verified milestone: Deceptive Click: Scenario Pwned (6/6 flags) on 30 October 2026 at 9:01 PM SGT. This repository is a professional, non-spoiler reflection on my authorised CTF participation, not a public solution guide.
+**Cybersecurity Investigation Portfolio | Zero Day Legend**  
+*Google Security Operations (Google SecOps) · Incident Investigation · Threat Hunting · Digital Forensics*
 
-At a glance
-Detail	Information
-Competition	Operation Cymbal: Cold Room CTF 2026
-Organised by	Google Cloud Security Community in partnership with Hack The Box
-Event period	30 October–2 November 2026 (Singapore time)
-Format	Online, evidence-driven incident investigation
-Participant	Jerry: Higher Nitec in Cyber & Network Security, ITE College West
-Participation model	Individual entrant; Zero Day Legend is my portfolio identity
-Main investigation platform	Google Security Operations (Google SecOps)
-Verified completion	Deceptive Click: 6/6 flags accepted
-Overall competition ranking	Not verified; no ranking claimed
+> **Verified results:** **736th of 1,716 teams** · **675 points** · **6/18 challenges solved**. These figures are taken from the Hack The Box
+Certificate of Participation for **Zero Day Legend**. My completed scenario, **Deceptive Click**, was marked **Scenario Pwned (6/6 flags)** on 30 October 2026 at 9:01 PM SGT.
+>
+> This is a professional, **non-spoiler portfolio**, not a published solution guide. Challenge flags, restricted event data and detailed solutions are omitted pending applicable organiser permission.
 
+## Competition overview
 
-About this portfolio
-I am a Year 2 student in the three-year Higher Nitec in Cyber & Network Security programme at ITE College West, Singapore. I am building my technical foundation in cybersecurity, with a long-term interest in ethical penetration testing and security investigation.
+| Detail | Information |
+|---|---|
+| **Competition** | Operation Cymbal: Cold Room CTF 2026 |
+| **Organised by** | Google Cloud Security Community in partnership with Hack The Box |
+| **Format** | Online, evidence-driven cybersecurity investigation |
+| **Event period (Singapore time)** | 30 October–2 November 2026 |
+| **Dates printed on participation certificate** | 29 October–1 November 2026 |
+| **Participant** | Jerry · Higher Nitec in Cyber & Network Security, ITE College West |
+| **Team / portfolio identity** | Zero Day Legend (individual participation) |
+| **Main platform** | Google Security Operations (Google SecOps) |
+| **Overall team ranking** | **736th out of 1,716 teams** |
+| **Total points** | **675** |
+| **Challenges solved** | **6/18** |
+| **Verified completed scenario** | **Deceptive Click — 6/6 flags** |
 
-I participated in this event to practise investigating security alerts and reconstructing incidents through evidence, rather than relying solely on a detection label or a single log entry. The scenario takes place in a fictional enterprise environment, where investigative conclusions must be supported by telemetry and sound reasoning.
+**Results verification:** The competition ranking, points, solved challenge count, team name and certificate dates are taken directly from my Hack The Box **Certificate of Participation**. The event period above is stated in Singapore time; the certificate uses its own displayed date range. No award, podium finish or distinction is claimed.
 
-This repository is intended for lecturers, cybersecurity practitioners, hiring teams, and my professional network. It showcases what I learned, how I approached analysis, and how I communicate findings while respecting the organisers' content restrictions.
+## About this portfolio
 
-Verified challenge progress
-Scenario	Verified status	Public writeup
-Deceptive Click	Completed — 6/6 flags; Scenario Pwned	[Non-spoiler case study](incidents/incident-01.md)
-Rogue Synthesis	Outcome not documented here	[Reporting framework](incidents/incident-02.md)
-OAuth Heist	Outcome not documented here	[Reporting framework](incidents/incident-03.md)
+I am a Year 2 student in the three-year Higher Nitec in Cyber & Network Security programme at **ITE College West, Singapore**, building a technical foundation in security operations, digital forensics, incident response and ethical penetration testing.
 
+I joined this CTF to practise moving from alerts to defensible conclusions: selecting relevant evidence, correlating events, testing assumptions and explaining findings clearly. The fictional enterprise setting provided opportunities to analyse endpoint, network and authentication telemetry in an authorised investigation environment.
 
-Completion evidence: My Hack The Box dashboard showed Scenario Pwned on 30 October 2026, 21:01 SGT, with all six flags accepted for Deceptive Click. I have not independently verified a final event score or overall placement and therefore do not claim either.
+This repository is intended for my lecturers, cybersecurity practitioners, internship interviewers and professional connections. It documents my approach and learning, while respecting platform and organiser publication restrictions.
 
-Deceptive Click — professional case study
-Outcome: Completed the scenario's six investigative tasks using the competition's authorised environment.
+## Verified competition progress
 
-The exercise involved correlating security case information, endpoint telemetry, web proxy records and identity-related events. I worked through investigation questions by narrowing the relevant time window, validating host context, examining raw records when parsed fields were incomplete, and confirming the requested evidence before making submissions.
+| Scenario | Verified status | Public documentation |
+|---|---|---|
+| **Deceptive Click** | **Completed — 6/6 flags; Scenario Pwned** | [Non-spoiler case study](incidents/incident-01.md) |
+| Rogue Synthesis | No completed result claimed | [Reporting framework](incidents/incident-02.md) |
+| OAuth Heist | No completed result claimed | [Reporting framework](incidents/incident-03.md) |
 
-This public account deliberately excludes flag answers, challenge-specific indicators and commands, sensitive event content and any restricted GTI documents.
+**Completion evidence:** My Hack The Box dashboard displayed *Scenario Pwned* for Deceptive Click on **30 October 2026 at 21:01 SGT**. The participation certificate confirms an **overall team rank of 736/1,716, 675 points and 6/18 challenges solved**. These represent the overall competition result, not an additional claim that all three scenarios were completed.
 
-[**Read the Deceptive Click case study**](incidents/incident-01.md)
-Tools and skills practised
-Area	Experience demonstrated
-Security Operations	Navigated Google SecOps Cases and SIEM Search; reviewed case context and security alerts
-Log analysis	Compared normalised event fields with source records; verified timestamps and event context
-Endpoint investigation	Interpreted Windows Sysmon process and network telemetry
-Network investigation	Examined network connection and Zscaler web proxy records
-Identity investigation	Reviewed Windows authentication and Kerberos-related log evidence
-Analytical reasoning	Tested hypotheses, refined queries when searches returned no matches, and avoided assumptions
-Technical communication	Recorded defensible observations, limitations and improvement opportunities
+## Deceptive Click — professional case study
 
+**Outcome:** Completed six investigative tasks through the competition's authorised Google SecOps environment.
 
-These items describe practical exposure from one authorised challenge, not a claim of professional certification or independent employment experience.
+The scenario involved assessing security case context and correlating endpoint telemetry, web proxy activity and identity-related events. I refined searches to the relevant event period, checked system and user context, compared structured fields with source logs when needed, and verified evidence before submitting responses.
 
-My investigation workflow
-1. Read the case and define the scope. Clarify the question, systems, accounts and permitted evidence sources.
-2. Anchor the time window. Align searches with the relevant event period rather than the current date.
-3. Pivot from known evidence. Use verified attributes to narrow events instead of guessing outcomes.
-4. Compare evidence sources. Correlate endpoint, network and authentication telemetry.
-5. Inspect original logs when needed. A missing normalised field does not necessarily mean the underlying event lacks the information.
-6. Differentiate fact from inference. Check source-versus-target roles, event context and plausible legitimate activity.
-7. Document responsibly. Record learning outcomes and disclosure limitations without publishing prohibited content.
+The public case study intentionally excludes exact challenge answers, flags, sensitive infrastructure indicators, commands, screenshots of restricted evidence and proprietary threat-intelligence materials.
 
-Lessons learned
-- Detection is not conclusion. An alert should initiate investigation, not substitute for independent validation.
-- Search precision matters. Host identifiers, event taxonomy and time windows can materially change results.
-- Evidence quality matters. Parsed fields are helpful, but original logs are sometimes necessary to verify a claim.
-- Context matters. A single process, connection or authentication record rarely tells the complete story.
-- Reporting matters. Clear explanations and appropriately stated uncertainty are as important as finding an answer.
+**[Read the Deceptive Click case study](incidents/incident-01.md)**
 
-Recommendations for defensive teams
-These are general learning recommendations, not a claim that any specific control was absent in the fictional environment:
-- Maintain endpoint process and network telemetry with consistent timestamps.
-- Correlate identity and network activity across systems when investigating potential lateral movement.
-- Retain accessible raw logs alongside normalised fields for analyst validation.
-- Develop detection review processes that separate confirmed events from speculative interpretations.
-- Encourage concise incident narratives that make evidence and uncertainty explicit.
+## Tools and technical competencies practised
 
-Feedback and professional discussion
-Constructive feedback is welcome. If you are a lecturer, cybersecurity practitioner, hiring manager, or fellow student, I would value your perspective on:
-- How can I improve the clarity and defensibility of my investigation reports?
-- Which security operations or digital forensics fundamentals should I prioritise next?
-- What would make this portfolio more useful when assessing a junior cybersecurity candidate?
+| Area | Practical experience |
+|---|---|
+| **Security operations** | Google SecOps Cases and SIEM Search, alert context and event triage |
+| **Endpoint monitoring** | Windows Sysmon process and network-event interpretation |
+| **Network investigation** | Network-connection and Zscaler web proxy log review |
+| **Identity investigation** | Windows authentication and Kerberos-related event analysis |
+| **Log validation** | Cross-checking normalised fields and original event records |
+| **Analytical reasoning** | Refining search logic, checking time windows, and distinguishing observation from inference |
+| **Technical communication** | Evidence-based summaries, limitations, professional reporting and clear recommendations |
 
-You can comment on the LinkedIn post linking to this repository, or open a GitHub Issue if issues are enabled. Please do not post challenge answers, restricted logs, access details or spoilers in public comments.
+These describe skills practised during an authorised learning exercise, not professional employment experience or an externally awarded technical certification.
 
-Responsible disclosure and attribution
-- All investigation activity was within the authorised event environment.
-- The competition allowed one participant per registration; Zero Day Legend is used as my personal CTF portfolio identity.
-- I used AI-based educational assistance to understand log terminology, think through search approaches and structure my documentation. I reviewed the actual records and submitted the accepted responses through my own competition account.
-- No event-specific solutions, flags, private access details, restricted raw logs, or proprietary threat-intelligence reports are reproduced here.
-- Detailed challenge solutions will only be considered for publication if the relevant content is officially retired and the applicable organiser permissions allow it.
-- This independent student project does not imply affiliation with or endorsement by the event organisers, ITE, CSA, GovTech, NCS or any employer.
+## Investigation methodology
 
-See the [publication checklist](POST_EVENT_CHECKLIST.md) before adding any further evidence or screenshots.
+1. **Define the investigative question.** Identify permitted data sources, relevant systems and the decision to be supported.
+2. **Establish the time window.** Align search filters with actual incident timestamps, not the current date.
+3. **Pivot from verified facts.** Use confirmed system, event and account context to narrow searches.
+4. **Correlate evidence.** Compare endpoint, network and identity records for supporting or contradictory observations.
+5. **Inspect source logs.** Validate relevant details when normalised event fields appear incomplete or ambiguous.
+6. **Separate facts from hypotheses.** Explain which conclusions are evidenced and which need corroboration.
+7. **Report responsibly.** Document technical learning without publishing prohibited CTF solutions or restricted content.
 
-Official references
-- Hack The Box — Operation Cymbal: Cold Room CTF
-- Google Cloud Security Community — Event announcement
-- Hack The Box — Streaming, writeups and walkthrough guidelines
+## Key lessons learned
 
-Last updated: 3 November 2026. This public portfolio contains only verified participation outcomes and non-spoiler educational reflections.
+- **An alert is a starting point, not a final conclusion.** Detection requires context and independent verification.
+- **Precision improves investigations.** Correct host identifiers, event taxonomy and time-range selection matter.
+- **Raw evidence can resolve uncertainty.** Original logs may provide detail missing from a normalised record.
+- **Correlation matters.** One process, network event or login seldom proves an entire incident narrative.
+- **Communication is a security skill.** A useful investigation report explains what happened, what is known and what remains uncertain.
+
+## General defensive recommendations
+
+These are educational observations, not claims that particular controls were absent from the scenario environment:
+
+- Retain reliable endpoint process and network telemetry with consistent timestamps.
+- Correlate identity and network activity across hosts when examining potential lateral movement.
+- Preserve access to original log records alongside normalised fields for analyst validation.
+- Review alert accuracy and distinguish verified findings from speculative indicators.
+- Develop concise investigation summaries that clearly document confidence and limitations.
+
+## Feedback and professional discussion
+
+I welcome **constructive feedback** from lecturers, cybersecurity practitioners, interviewers, recruiters and fellow learners. In particular, I would appreciate suggestions on making technical investigations easier to reproduce and evaluate, choosing relevant digital forensics topics to study next, and demonstrating the skills expected of an entry-level cybersecurity candidate.
+
+Feel free to comment on the LinkedIn post linking to this repository, or start a GitHub discussion/issue if that feature is available. **Please do not share CTF flags, unpublished solutions, restricted logs or access details in public comments.**
+
+## Responsible disclosure and attribution
+
+- All investigative activity was performed within the authorised competition environment.
+- Zero Day Legend is my team/portfolio identity for this individual event entry.
+- I used AI-based educational guidance to understand log terminology, refine investigation approaches and structure documentation. I reviewed the available records and submitted responses through my own competition account.
+- No challenge-specific solutions, active flags, restricted raw logs, credentials or proprietary threat-intelligence reports are reproduced here.
+- Detailed technical walkthroughs will be considered only when applicable Hack The Box retirement rules and organiser publication permissions permit them.
+- This independent student portfolio does not imply endorsement or affiliation with Google, Hack The Box, ITE, CSA, GovTech, NCS or other employers.
+
+See the [post-event publication checklist](POST_EVENT_CHECKLIST.md) before publishing more evidence or screenshots.
+
+## Official references
+
+- [Hack The Box — Operation Cymbal: Cold Room CTF](https://ctf.hackthebox.com/event/details/operation-cymbal-cold-room-3631)
+- [Google Cloud Security Community — Event announcement](https://security.googlecloudcommunity.com/events/community-capture-the-flag-with-hack-the-box-operation-cymbal-cold-room-141)
+- [Hack The Box — Streaming, Writeups and Walkthrough Guidelines](https://help.hackthebox.com/en/articles/5188925-streaming-writeups-walkthrough-guidelines)
+
+---
+
+*Last updated: 3 November 2026. Overall ranking and score are verified against the participation certificate; technical material is intentionally non-spoiler.*
