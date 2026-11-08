@@ -1,4 +1,4 @@
-# Deceptive Click — Cybersecurity Investigation Case Study
+# Incident 01 — Deceptive Click | Cybersecurity Investigation Case Study
 
 **Operation Cymbal: Cold Room CTF 2026 | Zero Day Legend**  
 **Author:** Jerry | Higher Nitec in Cyber & Network Security, ITE College West  
@@ -9,6 +9,8 @@
 > **Disclosure:** This is a **public, non-spoiler case study**, not a solution walkthrough. It omits challenge answers, infrastructure identifiers, exact queries, raw logs and restricted materials.
 
 ## 1. Executive summary
+
+**Featured report:** This is the repository's sole completed case study. It is written for lecturers, cybersecurity practitioners, internship interviewers and professional connections who wish to review my investigation methodology.
 
 I completed **Deceptive Click**, an evidence-driven incident investigation scenario in **Operation Cymbal: Cold Room CTF 2026**, organised by the **Google Cloud Security Community** in partnership with **Hack The Box**. Working within the authorised **Google Security Operations (Google SecOps)** environment, I reviewed case alerts and correlated endpoint, web proxy and Windows authentication telemetry to answer six investigative questions.
 
@@ -118,7 +120,7 @@ These are **general educational recommendations**, not confirmed weaknesses in t
 | **Challenges solved across the event** | **6/18** |
 | **Verification sources** | Hack The Box challenge dashboard and Certificate of Participation |
 
-**Important distinction:** The six accepted flags represent completion of **Deceptive Click**. The 6/18 figure represents my **overall competition challenge count**; I do not claim completion of other scenarios or an award placement.
+**Portfolio scope:** **Deceptive Click** is the single completed investigation documented in this repository. The **6/18** figure is the official number of challenges solved across the entire competition; it does not mean six complete scenarios. The official **736th-place ranking** is reported without suggesting an award or podium finish.
 
 This report does not publish flag answers, exact searches, command lines, identifiers, screenshots containing restricted material, original proprietary logs or full incident reconstruction steps. It also does not claim that I performed live remediation or proved a real-world incident's full business impact.
 
