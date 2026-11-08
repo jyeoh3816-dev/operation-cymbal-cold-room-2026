@@ -1,9 +1,15 @@
 Deceptive Click — Cybersecurity Investigation Case Study
+
 Operation Cymbal: Cold Room CTF 2026 | Zero Day Legend
+
 Author: Jerry | Higher Nitec in Cyber & Network Security, ITE College West
+
 Focus: Security operations · Threat investigation · Digital forensics · Evidence validation
+
 Verified scenario result: Scenario Pwned — 6/6 flags accepted, 30 October 2026, 9:01 PM SGT.
+
 Overall competition result: 736th out of 1,716 teams, 675 points, 6/18 challenges solved, as recorded on my Hack The Box Certificate of Participation.
+
 Disclosure: This is a public, non-spoiler case study, not a solution walkthrough. It omits challenge answers, infrastructure identifiers, exact queries, raw logs and restricted materials.
 
 1. Executive summary
