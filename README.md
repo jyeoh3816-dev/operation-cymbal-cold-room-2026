@@ -3,8 +3,7 @@
 **Cybersecurity Investigation Portfolio | Zero Day Legend**  
 *Google Security Operations (Google SecOps) · Incident Investigation · Threat Hunting · Digital Forensics*
 
-> **Verified results:** **736th of 1,716 teams** · **675 points** · **6/18 challenges solved**. These figures are taken from the Hack The Box
-Certificate of Participation for **Zero Day Legend**. My completed scenario, **Deceptive Click**, was marked **Scenario Pwned (6/6 flags)** on 30 October 2026 at 9:01 PM SGT.
+> **Verified results:** **736th of 1,716 teams** · **675 points** · **6/18 challenges solved**. These figures are taken from the Hack The Box Certificate of Participation for **Zero Day Legend**. My completed scenario, **Deceptive Click**, was marked **Scenario Pwned (6/6 flags)** on 30 October 2026 at 9:01 PM SGT.
 >
 > This is a professional, **non-spoiler portfolio**, not a published solution guide. Challenge flags, restricted event data and detailed solutions are omitted pending applicable organiser permission.
 
@@ -33,17 +32,17 @@ I am a Year 2 student in the three-year Higher Nitec in Cyber & Network Security
 
 I joined this CTF to practise moving from alerts to defensible conclusions: selecting relevant evidence, correlating events, testing assumptions and explaining findings clearly. The fictional enterprise setting provided opportunities to analyse endpoint, network and authentication telemetry in an authorised investigation environment.
 
-This repository is intended for my lecturers, cybersecurity practitioners, internship interviewers and professional connections. It documents my approach and learning, while respecting platform and organiser publication restrictions.
+This repository is intended for my lecturers, cybersecurity practitioners, internship interviewers and professional connections. It documents my **completed Deceptive Click case study**, investigative reasoning and learning outcomes while respecting platform and organiser publication restrictions.
 
-## Verified competition progress
+## Featured completed investigation
 
-| Scenario | Verified status | Public documentation |
+| Incident | Verified achievement | Report |
 |---|---|---|
-| **Deceptive Click** | **Completed — 6/6 flags; Scenario Pwned** | [Non-spoiler case study](incidents/incident-01.md) |
-| Rogue Synthesis | No completed result claimed | [Reporting framework](incidents/incident-02.md) |
-| OAuth Heist | No completed result claimed | [Reporting framework](incidents/incident-03.md) |
+| **Incident 01 — Deceptive Click** | **Scenario Pwned — 6/6 flags accepted** | **[Read the professional case study](incidents/incident-01.md)** |
 
-**Completion evidence:** My Hack The Box dashboard displayed *Scenario Pwned* for Deceptive Click on **30 October 2026 at 21:01 SGT**. The participation certificate confirms an **overall team rank of 736/1,716, 675 points and 6/18 challenges solved**. These represent the overall competition result, not an additional claim that all three scenarios were completed.
+This public repository intentionally features **one completed, evidence-based investigation**. Unfinished challenge templates have been removed so reviewers can focus on documented work.
+
+**Completion evidence:** My Hack The Box dashboard displayed *Scenario Pwned* for Deceptive Click on **30 October 2026 at 21:01 SGT**. The participation certificate confirms a final **overall team ranking of 736th out of 1,716 teams, 675 points and 6/18 challenges solved**. The overall challenge count is presented transparently; the case study covers **Deceptive Click only**.
 
 ## Deceptive Click — professional case study
 
@@ -122,4 +121,13 @@ See the [post-event publication checklist](POST_EVENT_CHECKLIST.md) before publi
 
 ---
 
-*Last updated: 3 November 2026. Overall ranking and score are verified against the participation certificate; technical material is intentionally non-spoiler.*
+*Last updated: 8 November 2026. Overall ranking and score are verified against the participation certificate; technical material is intentionally non-spoiler.*
+# Operation Cymbal: Cold Room CTF 2026
+
+**Cybersecurity Investigation Portfolio | Zero Day Legend**  
+*Google Security Operations (Google SecOps) · Incident Investigation · Threat Hunting · Digital Forensics*
+
+> **Verified results:** **736th of 1,716 teams** · **675 points** · **6/18 challenges solved**. These figures are taken from the Hack The Box Certificate of Participation for **Zero Day Legend**. My completed scenario, **Deceptive Click**, was marked **Scenario Pwned (6/6 flags)** on 30 October 2026 at 9:01 PM SGT.
+>
+> This is a professional, **non-spoiler portfolio**, not a published solution guide. Challenge flags, restricted event data and detailed solutions are omitted pending applicable organiser permission.
+
